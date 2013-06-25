@@ -1,0 +1,3 @@
+exec /usr/bin/ssh-agent $SHELL
+ssh-add
+vagrant up --provider=libvirt
